@@ -1,0 +1,55 @@
+
+
+.navmenu-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 0px;
+}
+
+.navmenu-area > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navmenu-area > div > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.navmenu-area-start{
+    gap: 10px;
+}
+
+.navmenu-area-start > div:first-child{
+    gap: 10px;
+    background-color: white;
+    border: 1px solid rgba(225, 227, 229, 1);
+    padding: 13px 13px;
+    border-radius: 8px;
+}
+.navmenu-area-start > div:nth-child(2){
+    gap: 32px;
+    font-weight: 500;
+    color: rgba(99, 98, 112, 1);
+}
+
+.navmenu-area-start > div:nth-child(2) > p:first-child{
+    color: rgba(0, 117, 128, 1);
+}
+
+.carusel{
+    background-color: rgba(240, 242, 243, 1);
+    height: 50vh;
+    margin-left: 99px;
+    margin-right: 82px;
+    border-radius: 12px;
+}
+
+.navmenu-area-middle > p:hover{
+    color: rgba(0, 117, 128, 1);
+    cursor: pointer;
+}

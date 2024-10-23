@@ -1,0 +1,64 @@
+.carusel {
+    position: relative;
+}
+
+.carusel >.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 1px solid #eeeeee;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.carusel > .arrow:first-child{
+    top: 40%;
+    left: 10px;
+}
+
+.carusel > .arrow:last-child{
+    top: 40%;
+    right: 10px;
+}
+
+.carusel-content button {
+    /* all: unset; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid lightgray;
+    background-color: rgba(2, 159, 174, 1);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.carusel-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: inherit;
+}
+
+.carusel-content > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 30%;
+}
+
+.carusel-content img {
+    height: 90%;
+}
+
+.carusel-content > div:last-child {
+    align-items: flex-start;
+    justify-content: center;
+}
